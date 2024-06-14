@@ -1,0 +1,16 @@
+#map {
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#scatter, #table {
+    flex: 1; 
+    min-width: 45%;
+    margin: 10px; 
+}
